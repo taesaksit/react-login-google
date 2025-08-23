@@ -109,7 +109,7 @@ export const Navbar = () => {
 
             <button
               onClick={() => {
-                console.log("Logout");
+                logout()
                 setMobileMenuOpen(false);
               }}
               className="flex items-center gap-1 text-sm font-semibold text-gray-600 hover:text-red-600 py-2"
